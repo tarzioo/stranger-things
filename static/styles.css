@@ -2,9 +2,8 @@
 .upper-wall {
     height: 60%;
    /* background-color: #975635;*/
-   background-image: url("img/floral-pattern.jpg");
-    background-repeat: repeat;
-   
+    background-image: url("img/floral-pattern-5.jpg");
+    background-repeat: repeat;   
     overflow: hidden;
     z-index: 0;   
 }
@@ -15,6 +14,7 @@
     z-index: 1;   
 
 }
+
 
 .flowers {
     background-color: #77371D;
@@ -65,6 +65,16 @@
     margin: 0 auto;
     border: black 1px solid;
     border-radius: 30% 30% 0 0;
+    background-image: url("img/stripes-3.jpg");
+    background-repeat: repeat;   
+    overflow: hidden;
+}
+
+.couch-top-filter {
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+    z-index: 1; 
+
 }
 
 .couch-bottom {
@@ -78,6 +88,34 @@
 
 }
 
+.couch-bottom-filter {
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+    z-index: 1; 
+
+}
+
+.bottom-blanket {
+    height: 50%;
+    background-image: url("img/stripes-3.jpg");
+    background-repeat: repeat;   
+ /*   overflow: hidden;*/
+ -webkit-transform:  rotateX(10deg) skewX(-30deg);
+}
+
+.bottom-blanket-filter {
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+    z-index: 1;   
+}
+
+.filter-arm {
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+    z-index: 1;
+    border-radius: 20% 20% 0 0; 
+
+}
 .arms {
     text-align: center;
     position: relative;
@@ -118,6 +156,8 @@
     bottom: -57%;
     bottom: -55%;
     border: black 1px solid;
+   
+
 
 }
 
