@@ -129,7 +129,7 @@
     border-radius: 30%;
     position: relative;
     display: inline-block;
-    bottom: -56%;
+    bottom: 23px;
     right: -88%;
     border: black 1px solid;
     transform: skewX(-5deg);
@@ -155,8 +155,8 @@
     position: relative;
     display: inline-block;
     border-radius: 30%;
-    bottom: -4px;
-    right: -65%;
+    bottom: 18px;
+    right: -67%;
     border: black 1px solid;
     -webkit-transform: perspective(200px) rotateX(40deg) skewX(-20deg);
 }
@@ -175,21 +175,49 @@
 
 .cushion-4 {
     height: 65px;
-    width: 75px;
+    width: 70px;
     background-color: #FFEFDB;
     position: relative;
     display: inline-block;
     border-radius: 30%;
-    bottom: -10px;
+    bottom: 3px;
     right: 5%;
-    border: black 1px solid;
-    -webkit-transform: perspective(100px) rotateX(60deg) skewX(5deg);
+    border: darkgreen 10px solid;
+    -webkit-transform: perspective(80px) rotateX(70deg) skewX(10deg);
 }
 
 .cushion-button-4 {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    border: red 3px solid;
+    margin: 0 auto;
+    position: relative;
+    bottom: -35%;
+
+}
+
+.cushion-5 {
+    height: 75px;
+    width: 95px;
+    background-color: #8B7D6B;
+    border-radius: 30%;
+    position: relative;
+    display: inline-block;
+    bottom: 19px;
+    right: -5%;
+    border: black 1px solid;
+    -webkit-transform: perspective(90px) rotateX(20deg);
+
+    
+
+}
+
+.cushion-button-5 {
     height: 6px;
     width: 6px;
-    background-color: #FFEFDB;
+    background-color: #8B7D6B;
     border-radius: 50%;
     border: black 3px solid;
     margin: 0 auto;
