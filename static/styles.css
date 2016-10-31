@@ -1,3 +1,4 @@
+
 .upper-wall {
     height: 60%;
     background-color: #975635;
@@ -41,5 +42,59 @@
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.couch-top {
+    height: 55%;
+    width: 40%;
+    background-color: tan;
+    position: relative;
+    bottom: 85%;
+    margin: 0 auto;
+    border: black 1px solid;
+    border-radius: 30% 30% 0 0;
+}
+
+.couch-bottom {
+    height: 30%;
+    width: 40%;
+    background-color: tan;
+    position: relative;
+    margin:  0 auto;
+    bottom: 87%;
+    border: black 1px solid;
+
+}
+
+.arms {
+    text-align: center;
+    position: relative;
+    bottom: 137%;
+}
+
+.left-arm {
+    display: inline-block;
+    height: 50%;
+    width: 5%;
+    background-color: tan;
+    position: relative;
+    left: -19%;
+    border: black 1px solid;
+    border-radius: 20% 20% 0 0;
+    
+ 
+}
+
+.right-arm {
+    display: inline-block;
+    height: 50%;
+    width: 5%;
+    background-color: tan;
+    position: relative;
+    right: -19%;
+    border: black 1px solid;
+    border-radius: 20% 20% 0 0;
+
+    
 }
 
