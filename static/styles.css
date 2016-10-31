@@ -105,6 +105,7 @@
     position: relative;
     bottom: -57%;
     bottom: -55%;
+    border: black 1px solid;
 
 }
 
@@ -122,14 +123,15 @@
 }
 
 .cushion-2 {
-    height: 65px;
-    width: 65px;
+    height: 63px;
+    width: 63px;
     background-color: darkgreen;
     border-radius: 30%;
     position: relative;
     display: inline-block;
-    bottom: -57%;
+    bottom: -56%;
     right: -88%;
+    border: black 1px solid;
     transform: skewX(-5deg);
 
 }
@@ -144,5 +146,55 @@
     position: relative;
     bottom: -35%;
 
+}
+
+.cushion-3 {
+    height: 65px;
+    width: 65px;
+    background-color: #FFEFDB;
+    position: relative;
+    display: inline-block;
+    border-radius: 30%;
+    bottom: -4px;
+    right: -65%;
+    border: black 1px solid;
+    -webkit-transform: perspective(200px) rotateX(40deg) skewX(-20deg);
+}
+
+.cushion-button-3 {
+    height: 6px;
+    width: 6px;
+    background-color: #FFEFDB;
+    border-radius: 50%;
+    border: black 3px solid;
+    margin: 0 auto;
+    position: relative;
+    bottom: -35%;
 
 }
+
+.cushion-4 {
+    height: 65px;
+    width: 75px;
+    background-color: #FFEFDB;
+    position: relative;
+    display: inline-block;
+    border-radius: 30%;
+    bottom: -10px;
+    right: 5%;
+    border: black 1px solid;
+    -webkit-transform: perspective(100px) rotateX(60deg) skewX(5deg);
+}
+
+.cushion-button-4 {
+    height: 6px;
+    width: 6px;
+    background-color: #FFEFDB;
+    border-radius: 50%;
+    border: black 3px solid;
+    margin: 0 auto;
+    position: relative;
+    bottom: -35%;
+
+}
+
