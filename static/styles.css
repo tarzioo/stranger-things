@@ -3,6 +3,11 @@
     background-color: #975635;
 }
 
+.flowers {
+    background-color: #77371D;
+}
+
+
 .divider-upper {
     height: 2%;
     background-color: #5D2F17;
@@ -17,7 +22,24 @@
     height: 36%;
     background-color: #5D2F17;
 }
+   
 
-.flowers {
-    background-color: #77371D;
+.wall-lines {
+    height: 100%;
+    overflow: hidden;
+       
+
 }
+.wall-line {
+    height: 3px;
+    width: 400px;
+    display: inline-block;
+    margin: -160px;
+    background-color: #341B10;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
