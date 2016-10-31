@@ -94,7 +94,55 @@
     right: -19%;
     border: black 1px solid;
     border-radius: 20% 20% 0 0;
-
     
 }
 
+.cushion-1 {
+    height: 55px;
+    width: 55px;
+    background-color: darkgreen;
+    border-radius: 30%;
+    position: relative;
+    bottom: -57%;
+    bottom: -55%;
+
+}
+
+.cushion-button-1 {
+    height: 6px;
+    width: 6px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    border: black 3px solid;
+    margin: 0 auto;
+    position: relative;
+    bottom: -35%;
+
+
+}
+
+.cushion-2 {
+    height: 65px;
+    width: 65px;
+    background-color: darkgreen;
+    border-radius: 30%;
+    position: relative;
+    display: inline-block;
+    bottom: -57%;
+    right: -88%;
+    transform: skewX(-5deg);
+
+}
+
+.cushion-button-2 {
+    height: 6px;
+    width: 6px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    border: black 3px solid;
+    margin: 0 auto;
+    position: relative;
+    bottom: -35%;
+
+
+}
