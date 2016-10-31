@@ -1,1 +1,23 @@
-ls
+.upper-wall {
+    height: 60%;
+    background-color: #975635;
+}
+
+.divider-upper {
+    height: 2%;
+    background-color: #5D2F17;
+}
+
+.divider-lower {
+    height: 2%;
+    background-color: #341B10;
+}
+
+.lower-wall {
+    height: 36%;
+    background-color: #5D2F17;
+}
+
+.flowers {
+    background-color: #77371D;
+}
