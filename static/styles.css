@@ -147,6 +147,10 @@
     
 }
 
+.pillows {
+    width: 505px;
+}
+
 .cushion-1 {
     height: 55px;
     width: 55px;
@@ -162,8 +166,8 @@
 }
 
 .cushion-button-1 {
-    height: 6px;
-    width: 6px;
+    height: 6%;
+    width: 6%;
     background-color: darkgreen;
     border-radius: 50%;
     border: black 3px solid;
