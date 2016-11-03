@@ -117,7 +117,7 @@ h2 {
    
 }
 .green {
-    background-color: rgba(68, 162, 159, 0.75);
+    background-color: rgba(68, 162, 159, 1);
     display: inline-block;
     margin: 0 auto;
    
@@ -340,7 +340,7 @@ h2 {
     position: relative;
     display: inline-block;
     bottom: 23px;
-    right: -88%;
+    right: -82%;
     border: black 1px solid;
     transform: skewX(-5deg);
 
@@ -366,7 +366,7 @@ h2 {
     display: inline-block;
     border-radius: 30%;
     bottom: 18px;
-    right: -67%;
+    right: -60%;
     border: black 1px solid;
     -webkit-transform: perspective(200px) rotateX(40deg) skewX(-20deg);
 }
