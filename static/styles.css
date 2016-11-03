@@ -1,3 +1,8 @@
+body {
+    height: 630px;
+    width: 1260px;
+}
+
 h2 {
     font-family: 'Gloria Hallelujah', cursive;
 }
@@ -42,7 +47,7 @@ h2 {
 .lights {
     height: 100%;
     width: 100%;
-    margin: -300px 40% 0 40%;
+    margin: -325px 40% 0 40%;
    
 
 }
@@ -108,18 +113,20 @@ h2 {
    
 }
 
-.lines img{
+.lines{
     height: 50%;
     width: 100%;
     
 }
 
 /*.lines img{
-    height: 750%;
+    height: 100%;
     width: 100%;
-    margin-top: -15%;
+    margin-top: -321%;
     margin-left: 0%;
 }*/
+
+
 .letters {
     height: 80%;
     width: 100%;
