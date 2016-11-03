@@ -48,6 +48,7 @@ h2 {
     height: 100%;
     width: 100%;
     margin: -325px 40% 0 40%;
+    z-index: 1;
    
 
 }
@@ -57,7 +58,7 @@ h2 {
     width: 100%;
     z-index: 1;
     display: inline-block;
-    margin: 0 auto;
+    margin: 25 auto -20 auto;
 
 }
 
@@ -119,12 +120,19 @@ h2 {
     
 }
 
-/*.lines img{
+.lines {
     height: 100%;
     width: 100%;
-    margin-top: -321%;
+    margin-top: -400px;
     margin-left: 0%;
-}*/
+    z-index: 0;
+}
+
+.lines img {
+    height: 300px;
+    width: 1260px;
+    margin: 0 auto;
+}
 
 
 .letters {
