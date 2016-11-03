@@ -87,28 +87,33 @@ h2 {
 }
 
 .red {
-    background-color: red;
+    background-color: rgba(201, 29, 181, 1);
     display: inline-block;
     margin: 0 auto;
 
-
-   
 }
+
+.orange {
+    background-color: rgba(248, 191, 32, 1);
+    display: inline-block;
+    margin: 0 auto;
+}
+   
 .yellow {
-    background-color: yellow;
+    background-color: rgba(253, 252, 191, 1);
     display: inline-block;
     margin: 0 auto;
    
 }
 .blue {
-    background-color: blue;
+    background-color: rgba(7, 90, 223, 1);
     display: inline-block;
     margin: 0 auto;
 
    
 }
 .green {
-    background-color: green;
+    background-color: rgba(68, 162, 159, 1);
     display: inline-block;
     margin: 0 auto;
    
