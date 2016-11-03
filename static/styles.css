@@ -436,7 +436,7 @@ h2 {
 
 }
 
-.one {
+#one {
    margin-right: 20%;
    margin-left: -30%;
    margin-bottom: 0%;
@@ -444,7 +444,7 @@ h2 {
 
 }
 
-.two {
+#two {
    margin-right: 20%;
    margin-left: -15%;
    margin-bottom: 0%;
@@ -452,7 +452,7 @@ h2 {
      
 }
 
-.three {
+#three {
    margin-right: 20%;
    margin-left: -35%;
    margin-bottom: 0%;
@@ -460,259 +460,259 @@ h2 {
 
 }
 
-.four {
+#four {
    margin-right: 30%;
    margin-left: -1%;
    margin-bottom: 0%;
    transform: translate(0%, -100%) skewX(-10deg);
 }
 
-.a {
+#a {
     margin-left: -27%;
     transform: translate(0%, -55%) skewX(10deg);
 }
 
-.b {
+#b {
     margin-left: 4%;
     transform: translate(0%, -15%) skewX(-10deg);
 }
 
-.c {
+#c {
     margin-left: 5%;
     transform: translate(0%, -35%) skewX(0deg);
 }
 
-.d {
+#d {
     margin-left: 5%;
     transform: translate(0%, -65%) skewX(15deg);
 }
 
 
-.e {
+#e {
     margin-left: 4%;
     transform: translate(0%, -35%) skewX(-5deg);
 }
 
-.f {
+#f {
     margin-left: 4%;
     transform: translate(0%, -55%) skewX(-5deg);
 }
 
-.g {
+#g {
     margin-left: 5%;
     transform: translate(0%, -55%) skewX(15deg);
 }
 
-.h {
+#h {
     margin-left: 5%;
     transform: translate(0%, -95%) skewX(-10deg);
 }
 
-.five {
+#five {
     margin-left: 6%;
     transform: translate(0%, -95%) skewX(0deg);
 
 }
 
-.six {
+#six {
     margin-left: 5%;
     transform: translate(0%, -65%) skewX(10deg);
 
 }
 
-.seven {
+#seven {
     margin-left: 5%;
     transform: translate(0%, -65%) skewX(-10deg);
 
 }
 
-.eight {
+#eight {
     margin-left: 5%;
     transform: translate(0%, -65%) skewX(0deg);
 
 }
 
-.nine {
+#nine {
     margin-left: -35%;
     transform: translate(0%, 25%) skewX(-10deg);
 
 }
 
-.ten {
+#ten {
     margin-left: 5%;
     transform: translate(0%, 15%) skewX(0deg);
 
 }
 
-.eleven {
+#eleven {
     margin-left: 6%;
     transform: translate(0%, -15%) skewX(-10deg);
 
 }
 
-.i {
+#i {
     margin-left: 3%;
     transform: translate(0%, 15%) skewX(10deg);
 
 }
 
-.j {
+#j {
     margin-left: 5%;
     transform: translate(0%, -15%) skewX(-10deg);
 
 }
 
-.k {
+#k {
     margin-left: 5%;
     transform: translate(0%, -25%) skewX(0deg);
 
 }
 
-.l {
+#l {
     margin-left: 4%;
     transform: translate(0%, 5%) skewX(10deg);
 
 }
 
-.m {
+#m {
     margin-left: 6%;
     transform: translate(0%, -25%) skewX(5deg);
 
 }
 
-.n {
+#n {
     margin-left: 6%;
     transform: translate(0%, -85%) skewX(-5deg);
 
 }
 
-.o {
+#o {
     margin-left: 4%;
     transform: translate(0%, -85%) skewX(0deg);
 
 }
 
-.p {
+#p {
     margin-left: 4%;
     transform: translate(0%, -25%) skewX(-10deg);
 
 }
 
-.q {
+#q {
     margin-left: 5%;
     transform: translate(0%, -75%) skewX(0deg);
 
 }
 
-.twelve {
+#twelve {
     margin-left: 6%;
     transform: translate(0%, -115%) skewX(0deg);
 
 }
 
-.thirteen {
+#thirteen {
     margin-left: 5%;
     transform: translate(0%, -75%) skewX(5deg);
 
 }
 
-.fourteen {
+#fourteen {
     margin-left: 5%;
     transform: translate(0%, -75%) skewX(-10deg);
 
 }
 
-.fifteen {
+#fifteen {
     margin-left: -37%;
     transform: translate(0%, -35%) skewX(10deg);
 
 }
 
-.sixteen {
+#sixteen {
     margin-left: 4%;
     transform: translate(0%, 5%) skewX(0deg);
 
 }
 
-.seventeen {
+#seventeen {
     margin-left: 4%;
     transform: translate(0%, -45%) skewX(-5deg);
 
 }
 
-.eighteen {
+#eighteen {
     margin-left: 3%;
     transform: translate(0%, -45%) skewX(-5deg);
 
 }
 
-.r {
+#r {
     margin-left: 2%;
     transform: translate(0%, -15%) skewX(-10deg);
 
 }
 
-.s {
+#s {
     margin-left: 6%;
     transform: translate(0%, -25%) skewX(0deg);
 
 }
 
-.t {
+#t {
     margin-left: 5%;
     transform: translate(0%, -10%) skewX(3deg);
 
 }
 
-.u {
+#u {
     margin-left: 5%;
     transform: translate(0%, -35%) skewX(0deg);
 
 }
 
-.v {
+#v {
     margin-left: 4%;
     transform: translate(0%, -15%) skewX(5deg);
 
 }
 
-.w {
+#w {
     margin-left: 5%;
     transform: translate(0%, -45%) skewX(-5deg);
 
 }
 
-.x {
+#x {
     margin-left: 6%;
     transform: translate(0%, -60%) skewX(0deg);
 
 }
 
-.y {
+#y {
     margin-left: 5%;
     transform: translate(0%, -50%) skewX(-5deg);
 
 }
 
-.z {
+#z {
     margin-left: 4%;
     transform: translate(0%, -80%) skewX(0deg);
 
 }
 
-.nineteen {
+#nineteen {
     margin-left: 6%;
     transform: translate(0%, -50%) skewX(-5deg);
 
 }
 
-.twenty {
+#twenty {
     margin-left: 5%;
     transform: translate(0%, -50%) skewX(0deg);
 
 }
 
-.twentyone {
+#twentyone {
     margin-left: 6%;
     transform: translate(0%, -50%) skewX(5deg);
 
