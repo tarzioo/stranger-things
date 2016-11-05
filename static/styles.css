@@ -187,12 +187,14 @@ h2 {
 .lower-wall {
     height: 36%;
     background-color: #5D2F17;
+
 }
    
 
 .wall-lines {
     height: 100%;
     overflow: hidden;
+    z-index: 0;
        
 
 }
@@ -716,6 +718,16 @@ h2 {
     margin-left: 6%;
     transform: translate(0%, -50%) skewX(5deg);
 
+}
+
+.button {
+    height: 30px;
+    width: 120px;
+    background-color: red;
+    margin-top: -40%;
+    text-align: center;
+    z-index: 1;
+   
 }
 
 
