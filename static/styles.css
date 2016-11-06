@@ -722,8 +722,9 @@ h2 {
 .button {
     height: 30px;
     width: 120px;
-    background-color: red;
+    background-color: rgba(116, 103, 103, 1);
     margin-top: -40%;
+    margin-left: 10%;
     text-align: center;
     z-index: 999;
     position: absolute;
