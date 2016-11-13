@@ -3,22 +3,23 @@
 $('#message-btn').click(function() {
     console.log("Entered message function");
     document.getElementById('six').style.backgroundColor = "rgba(7, 90, 223, 0.5)";
+    lightIt();
 });
 
 
-// var on = true;
-// var selector = "#six";
-// var selector = ".bulb";
-// setInterval(function() {
-//     if(on) { 
-//         $(".bulb").addClass('dim');
-//         on = false;
-//     }
-//     else {
-//         $(".bulb").removeClass('dim');
-//         on = true;
-//     }
-// }, 2000);
+var on = true;
+var selector = "#six";
+var selector = ".bulb";
+setInterval(function() {
+    if(on) { 
+        $(".bulb").addClass('dim');
+        on = false;
+    }
+    else {
+        $(".bulb").removeClass('dim');
+        on = true;
+    }
+}, 2000);
 
 
 
