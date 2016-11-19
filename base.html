@@ -6,8 +6,25 @@
         </title>
         <link rel="stylesheet" type="text/css" href="static/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+        
     </head>
     <body>
+
+        <a class="js-open-modal" href="#" data-modal-id="popup"> Click me </a>
+        <div id="popup" class="modal-box">  
+  <header>
+    <a href="#" class="js-modal-close close">×</a>
+    <h3><a href="http://www.jqueryscript.net/tags.php?/Modal/">Modal</a> Title</h3>
+  </header>
+  <div class="modal-body">
+    <p>Modal Body</p>
+  </div>
+  <footer>
+    <a href="#" class="js-modal-close">Close Button</a>
+  </footer>
+</div>
+
+
         <div class="upper-wall">
             <div class="wallpaper-filter">
                 <div class="wall-details">
@@ -201,11 +218,17 @@
                     <div class="filter-arm"></div>
                 </div>
             </div>
-            <div class="button">
+            <!-- <div class="button">
                 <a id="message-btn">Enter A Message</a>
             </div>
         </div>
+ -->
+
+
+
+
         <script src="http://code.jquery.com/jquery.js"></script>
-         <script src="static/strangerthings.js"></script>
+         <script src="/static/strangerthings.js"></script>
+          
     </body>
 </html>
