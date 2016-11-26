@@ -227,6 +227,14 @@
                   <div class="modal-content">
                     <span class="close">×</span>
                     <h1>Send a Message From the Upside-Down</h1>
+
+                    <form action='/email' id="message-form" method="POST">
+                    <label>Send Email to:
+                        <input type="text" id="email-length" name="email"></input></label><br><br>
+                    <label>Message:
+                        <textarea name="messsage" rows="7" cols="40"></textarea></label><br><br><br>
+                        <input type="submit" value="Send">
+                    </form>
                   </div>
 
                 </div>
