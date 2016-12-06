@@ -1,1 +1,1 @@
-![alt tag](https://tarzioo/stranger-things/static/img/frontend.png)
+![Frontend](static/img/frontend.png)
