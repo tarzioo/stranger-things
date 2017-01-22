@@ -722,15 +722,20 @@ h2 {
 
 }
 
-.button {
-    height: 30px;
-    width: 120px;
-    background-color: rgba(116, 103, 103, 1);
+button {
+    height: 50px;
+    width: 190px;
     margin-top: -40%;
     margin-left: 10%;
     text-align: center;
     z-index: 999;
     position: absolute;
+    background-color: rgba(63, 152, 247, 1);
+    border-width: 2px;
+    border-bottom: 5px #044487 solid;
+    font-size: 20px;
+    color: #044487;
+    border-radius: 10px;
    
 }
 
@@ -789,117 +794,103 @@ $("#button").click(function() {
 
 
 
+/***************** MODAL ***************************/
 
+/*Show Button*/
 
-
-
-.modal-box {
-  display: none;
+.show{
   position: absolute;
-  z-index: 1000;
-  width: 98%;
-  background: white;
-  border-bottom: 1px solid #aaa;
-  border-radius: 4px;
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-clip: padding-box;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -75px;
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  border-bottom: 2px solid #c0392b;
+  cursor: pointer;
+  
+  &:hover{
+    background: #c0392b;
+  }
+  
+  &:active{
+    transform: scale(0.9);
+  }
 }
 
-.modal-box header,
-.modal-box .modal-header {
-  padding: 1.25em 1.5em;
-  border-bottom: 1px solid #ddd;
-}
+/*// Close Button*/
 
-.modal-box header h3,
-.modal-box header h4,
-.modal-box .modal-header h3,
-.modal-box .modal-header h4 { margin: 0; }
-
-.modal-box .modal-body { padding: 2em 1.5em; }
-
-.modal-box footer,
-.modal-box .modal-footer {
-  padding: 1em;
-  border-top: 1px solid #ddd;
-  background: rgba(0, 0, 0, 0.02);
-  text-align: right;
-}
-
-.modal-overlay {
-  opacity: 0;
-  filter: alpha(opacity=0);
+.close{
   position: absolute;
   top: 0;
+  right: 0;
+  width: 35px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+
+/*// The mask*/
+
+.mask{
+  position: fixed;
+  top: 0;
   left: 0;
-  z-index: 900;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3) !important;
+  background: rgba(52, 73, 94, 0.8);
+  z-index: 50;
+  visibility: hidden;
+  
+  opacity: 0;
+  
+  transition: 0.7s;
 }
 
-a.close {
-  line-height: 1;
-  font-size: 1.5em;
-  position: absolute;
-  top: 5%;
-  right: 2%;
-  text-decoration: none;
-  color: #bbb;
+/*// Modal*/
+
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 300px;
+  margin-left: -200px;
+  margin-top: -150px;
+  background: #bdc3c7;
+  z-index: 100;
+  visibility: hidden;
+  
+  opacity: 0;
+  
+  transition: 0.5s ease-out;
+  
+  transform: translateY(45px);
 }
 
-a.close:hover {
-  color: #222;
-  -webkit-transition: color 1s ease;
-  -moz-transition: color 1s ease;
-  transition: color 1s ease;
+/*// Class Active*/
+
+.active{
+  visibility: visible;
+  opacity: 1;
+}
+
+/*// When active class is added, that affects the modal class*/
+
+.active + .modal{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
 
-@media (min-width: 32em) {
-  .modal-box { width: 70%; }
-}
-
-/************************
 
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-
-/* The Close Button */
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}

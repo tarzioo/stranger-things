@@ -9,22 +9,6 @@
         
     </head>
     <body>
-
-        <a class="js-open-modal" href="#" data-modal-id="popup"> Click me </a>
-        <div id="popup" class="modal-box">  
-  <header>
-    <a href="#" class="js-modal-close close">×</a>
-    <h3><a href="http://www.jqueryscript.net/tags.php?/Modal/">Modal</a> Title</h3>
-  </header>
-  <div class="modal-body">
-    <p>Modal Body</p>
-  </div>
-  <footer>
-    <a href="#" class="js-modal-close">Close Button</a>
-  </footer>
-</div>
-
-
         <div class="upper-wall">
             <div class="wallpaper-filter">
                 <div class="wall-details">
@@ -218,24 +202,18 @@
                     <div class="filter-arm"></div>
                 </div>
             </div>
-            <div class="button">
-                <a id="message-btn">Enter A Message</a>
+                
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                
 
-                  <!-- Modal content -->
-                  <div class="modal-content">
-                    <span class="close">×</span>
-                    <h1>Send a Message From the Upside-Down</h1>
+                <button id="message-btn" class="show" aria-haspopup="true">Enter A Message</button>
 
-                    <form action='/email' id="message-form" method="POST">
-                    <label>Send Email to:
-                        <input type="text" id="email-length" name="email"></input></label><br><br>
-                    <label>Message:
-                        <textarea name="messsage" rows="7" cols="40"></textarea></label><br><br><br>
-                        <input type="submit" value="Send">
-                    </form>
-                  </div>
+                <div class="mask" role="dialog"></div>
+                <div class="modal" role="alert">
+                    <button class="close" role="button">X</button>
+                </div>
+
+                  
 
                 </div>
             </div>

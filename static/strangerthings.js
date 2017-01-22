@@ -57,28 +57,38 @@ setInterval(function() {
 
 
 
-// Get the modal
-var modal = document.getElementById('myModal');
+/************** Modal *******************************/
 
-// Get the button that opens the modal
-var btn = document.getElementById("message-btn");
+// Click function for show the Modal
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+$(".show").on("click", function(){
+  $(".mask").addClass("active");
+});
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
+// Function for close the Modal
+
+function closeModal(){
+  $(".mask").removeClass("active");
 }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
+// Call the closeModal function on the clicks/keyboard
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+$(".close, .mask").on("click", function(){
+  closeModal();
+});
+
+$(document).keyup(function(e) {
+  if (e.keyCode == 27) {
+    closeModal();
+  }
+});
+
+/*****************END OF MODAL ************************/
+
+/*********************Get message *******************/
+
+
+$('#send-message-btn').on('click', function (evt) {
+    var message = $('input[name=message]').val();
+    console.log(message);
+});
