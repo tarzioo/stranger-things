@@ -208,14 +208,19 @@
 
                 <button id="message-btn" class="show" aria-haspopup="true">Enter A Message</button>
 
+                <div class="modal-container">
                 <div class="mask" role="dialog"></div>
                 <div class="modal" role="alert">
                     <button class="close" role="button">X</button>
                     <form>
                         <label>Send a Message</label>
-                        <input type="textarea" name="message" size=25>
-                        <button id="send-message-btn" value="submit">Send</button>
+                        <textarea name="message" cols="20" rows="3"></textarea>
+                        
                     </form>
+                    <button id="send-message-btn" value="submit">Send</button>
+                </div>
+
+                    
                 </div>
 
                   

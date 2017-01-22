@@ -722,7 +722,7 @@ h2 {
 
 }
 
-button {
+#message-btn {
     height: 50px;
     width: 190px;
     margin-top: -40%;
@@ -887,6 +887,17 @@ $("#button").click(function() {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
+}
+
+
+
+.modal-container {
+    position: absolute;
+}
+
+#send-message-btn {
+    position: relative;
+    display: block;
 }
 
 
