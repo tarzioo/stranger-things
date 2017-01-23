@@ -859,7 +859,7 @@ $("#button").click(function() {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 400px;
+  width: 450px;
   height: 300px;
   margin-left: -200px;
   margin-top: -150px;
@@ -898,6 +898,16 @@ $("#button").click(function() {
 #send-message-btn {
     position: relative;
     display: block;
+}
+
+
+
+.form {
+    padding: 10px 100px;
+}
+
+#send-message-btn {
+    left: 45%;
 }
 
 

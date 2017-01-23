@@ -91,4 +91,5 @@ $(document).keyup(function(e) {
 $('#send-message-btn').on('click', function (evt) {
     var message = $(':input[name=message]').val();
     console.log(message);
+    closeModal();
 });
