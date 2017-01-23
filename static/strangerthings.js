@@ -1,5 +1,15 @@
 "use strict";
 
+//place dim class on all lights to start off
+var setAllDim = function () {
+    console.log("entered setAllDim");
+
+    var list = document.getElementsByClassName("bulb");
+    for (var i = 0; i < list.length; ++i) {
+        list[i].classList.add('dim');
+    }
+};
+
 // $('#message-btn').click(function() {
 //     console.log("Entered message function");
 //     document.getElementById('six').style.backgroundColor = "rgba(7, 90, 223, 0.5)";
@@ -151,6 +161,7 @@ var count = function (num) {
 
 
 $('#send-message-btn').on('click', function (evt) {
+    setAllDim();
     var message = $(':input[name=message]').val();
     // sanitize the input
     message = message.trim().toLowerCase().replace(/[^a-z ]+/g, "");
@@ -173,10 +184,10 @@ var writing = function (message) {
     var inBetweenWait = 1000;
 
     var lightIt = function() {
-        $("#" + message[i]).addClass('dim');
+        $("#" + message[i]).removeClass('dim');
         console.log(message[i]);
         setTimeout(function() {
-            $("#" + message[i]).removeClass('dim');
+            $("#" + message[i]).addClass('dim');
             setTimeout(function() {
                 i++;
                 if(i < length) {
