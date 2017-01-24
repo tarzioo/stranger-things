@@ -1,12 +1,29 @@
 "use strict";
 
-//place dim class on all lights to start off
+
+//randomize lights
+
+var randomize = function () {
+    console.log("Entered randomize");
+
+}
+
+//place dim class on all lights 
 var setAllDim = function () {
     console.log("entered setAllDim");
 
     var list = document.getElementsByClassName("bulb");
     for (var i = 0; i < list.length; ++i) {
         list[i].classList.add('dim');
+    }
+};
+
+var setAllOn = function () {
+    console.log("entered setAllOn");
+
+    var list = document.getElementsByClassName("bulb");
+    for (var i = 0; i < list.length; ++i) {
+        list[i].classList.remove('dim');
     }
 };
 
@@ -198,7 +215,7 @@ var writing = function (message) {
     };
     lightIt();
 
-   
+  
 };
 
 
