@@ -5,8 +5,10 @@
 
 var randomize = function () {
     console.log("Entered randomize");
+    var num = Math.floor(Math.random() * (21)) + 1;
+    console.log(num);
 
-}
+};
 
 //place dim class on all lights 
 var setAllDim = function () {
